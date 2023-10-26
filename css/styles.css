@@ -42,11 +42,34 @@
 /**********************************/
 
 
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: var(--ff-primary);
+	background: var(--clr-background);
+}
+
 
 /**********************************/
 /* 2. Navbar
 /**********************************/
 
+
+.navbar {
+	position: fixed;
+	background: var(--clr-background);
+	width: 100%;
+	padding: 1.6rem;
+	box-shadow: var(--dark-shadow);
+}
+
+.navbar-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
 /**********************************/
